@@ -1,0 +1,27 @@
+$DarkCyan: hsl(158, 36%, 37%);
+$Cream: hsl(30, 38%, 92%);
+$Black: hsl(212, 21%, 14%);
+$Gray: hsl(228, 12%, 48%);
+$White: hsl(0, 0%, 100%);
+
+
+body{
+    background-color:$Cream;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(1rem, 14px + 0.2vw, 2rem);
+    width: 100%;
+    height: 100vh;
+    p{
+        color: $Gray;
+    }
+}
+
+.attribution{
+    font-size: 12px;
+}
+
