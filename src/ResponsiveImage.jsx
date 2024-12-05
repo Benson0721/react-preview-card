@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 
 
@@ -6,10 +6,20 @@ import React, { useState, useEffect } from 'react';
 
 
 export default function ResponsiveImage() {
-    const [src, setSrc] = useState("")
-
-
-    useEffect(() => {
+    //picture tag make it super easy!
+    return (
+        <picture>
+            <source
+                srcSet="./images/image-product-desktop.jpg"
+                media="(min-width: 1440px)"
+            />
+            <img
+                src="./images/image-product-mobile.jpg"
+                alt="product_image"
+            />
+        </picture>
+    );
+    /*useEffect(() => {
         const updateImage = (e) => {
             if (e.matches) {
                 setSrc("./images/image-product-desktop.jpg")
@@ -24,7 +34,9 @@ export default function ResponsiveImage() {
 
 
 
-        return () => {
+        return (
+            
+        ) => {
             mediaQuery.removeEventListener('change', updateImage)
         }
     }, [])
@@ -39,5 +51,5 @@ export default function ResponsiveImage() {
         <>
             <img src={src} alt="product_image" />
         </>
-    )
+    )*/
 }
