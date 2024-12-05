@@ -12,9 +12,9 @@ export default function ResponsiveImage() {
     useEffect(() => {
         const updateImage = (e) => {
             if (e.matches) {
-                setSrc("../../images/image-product-desktop.jpg")
+                setSrc("./images/image-product-desktop.jpg")
             } else {
-                setSrc("../../images/image-product-mobile.jpg")
+                setSrc("./images/image-product-mobile.jpg")
             }
 
         }

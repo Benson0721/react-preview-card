@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import PreviewCard from './product_preview_component/PreviewCard'
+import PreviewCard from './PreviewCard'
 
 
 const product = {
