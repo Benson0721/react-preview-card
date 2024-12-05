@@ -62,8 +62,8 @@ I want to get more familiar with react, so I will keep practise that in the futr
 
 ### Useful resources
 
-- [https://ithelp.ithome.com.tw/m/articles/10303608] - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [https://www.npmjs.com/package/gh-pages](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [https://ithelp.ithome.com.tw/m/articles/10303608] - This helped me for understanding deploy website on github.
+- [https://www.npmjs.com/package/gh-pages](https://www.example.com) - This is gh-pages doc,a tool can help me deploy website on github
 
 
 
@@ -71,5 +71,5 @@ I want to get more familiar with react, so I will keep practise that in the futr
 
 - Github - [Mpass](https://github.com/Benson0721)
 - Frontend Mentor - [@Mpass](https://www.frontendmentor.io/profile/Benson0721)
-=
+
 
