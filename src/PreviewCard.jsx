@@ -1,4 +1,4 @@
-import "../dest/preview_card.css"
+import "./css/preview_card.css"
 import ResponsiveImage from "./ResponsiveImage"
 
 

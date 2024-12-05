@@ -5,24 +5,24 @@ img {
 
 .card_box {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 2%;
+  overflow: hidden;
   width: 100%;
   height: auto;
+  border-radius: 2%;
+  flex-direction: column;
+  justify-content: center;
   max-width: 327px;
   background-color: hsl(0, 0%, 100%);
-  overflow: hidden;
 }
 .card_box .figure {
   flex: 4;
 }
 .card_box .info {
-  flex: 6;
   display: flex;
+  padding: 6%;
+  flex: 6;
   flex-direction: column;
   justify-content: center;
-  padding: 6%;
 }
 .card_box .info #header {
   color: hsl(212, 21%, 14%);
@@ -37,35 +37,35 @@ img {
   margin: 1%;
 }
 .card_box .info .info_item #price {
+  display: inline-block;
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", serif;
   font-weight: 700;
-  display: inline-block;
 }
 .card_box .info .info_item #discount {
-  text-decoration: line-through;
   display: inline-block;
+  text-decoration: line-through;
   margin-left: 5%;
 }
 .card_box .info .button-container {
-  align-self: center;
   display: flex;
+  width: 90%;
+  border-radius: 5%;
+  align-self: center;
   justify-content: center;
   align-items: center;
   background-color: hsl(158, 36%, 37%);
-  width: 90%;
-  border-radius: 5%;
 }
 .card_box .info .button-container:hover {
   background-color: hsl(158, 37%, 25%);
 }
 .card_box .info .button-container #AddToCart {
+  padding: 5%;
+  border: none;
   color: hsl(0, 0%, 100%);
   font-weight: 700;
-  padding: 5%;
   font-family: inherit;
   background-color: inherit;
-  border: none;
   outline: none;
 }
 .card_box .info .button-container #AddToCart:hover {
@@ -90,14 +90,15 @@ img {
     max-inline-size: 100%;
   }
   .card_box .info {
-    flex: 5;
     padding: 3%;
+    flex: 5;
   }
   .card_box .info .info_item {
     margin: 5%;
   }
   .card_box .info .button-container {
-    padding: 5px 10px;
     width: 75%;
+    padding: 5px 10px;
   }
-}/*# sourceMappingURL=preview_card.css.map */
+}
+/*# sourceMappingURL=preview_card.css.map */

@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "bulid:css": "postcss src/css/index.css --dir dest && postcss src/css/preview_card.css --dir dest",
+    "bulid:css": "postcss src/css/index.css --dir src/css && postcss src/css/preview_card.css --dir src/css",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
