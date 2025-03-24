@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import PreviewCard from "./PreviewCard";
 
 const product = {

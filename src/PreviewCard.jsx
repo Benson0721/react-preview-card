@@ -1,4 +1,4 @@
-import "./css/preview_card.css";
+import "./scss/preview_card.scss";
 import ResponsiveImage from "./ResponsiveImage";
 
 export default function PreviewCard({ Product }) {
